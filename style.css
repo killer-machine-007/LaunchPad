@@ -71,6 +71,7 @@ button {
    body {
     background-image: url(https://images8.alphacoders.com/110/1105315.jpg);
     background-size: cover;
+    background-position: right;
     margin: 0;
     padding: 0;
     height: 100vh;
