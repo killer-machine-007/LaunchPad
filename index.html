@@ -6,12 +6,15 @@
     <link rel = "stylesheet" type = "text/css" href = "style.css">
 
     <body>
-        <button>
-            <span></span>
+        <script>
+            function play() {
+                var audio = document.getElementById("audio");
+                audio.play();
+            }
+        </script>
+        <button type="button" value="Don't Click" onclick="play()">
+            <audio id="audio" src="/home/moksh/Documents/codex/LaunchPad/somehting_in_the_way.mp3"></audio>
         </button>
-        <audio autoplay>
-            <source src="somehting_in_the_way.mp3" type="audio/mpeg">
-          </audio> 
     </body>
 </head>
 </html>

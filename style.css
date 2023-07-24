@@ -11,9 +11,8 @@ button {
     cursor: pointer;
     background-color: transparent;
     transform: translateY(8px)
-   }
-   
-   button:after {
+}
+  button:after {
     content: '';
     position: absolute;
     left: 0;
@@ -21,13 +20,12 @@ button {
     bottom: 0;
     box-shadow: 0px 0 0 0 white;
     transition: all 2s ease;
-   }
-   
-   button:hover:after {
+}
+  button:hover:after {
     box-shadow: 0px -65px 280px 60px #ffffffa6;
-   }
-   
-   button span {
+}
+
+  button span {
     position: absolute;
     width: 100%;
     font-size: 15px;
@@ -39,13 +37,13 @@ button {
     transform: translate(-50%,-50%);
     color: black;
     transition: all 2s ease;
-   }
-   
-   button:hover span {
+}
+
+  button:hover span {
     color: white;
-   }
-   
-   button:before {
+}
+
+  button:before {
     content: '';
     position: absolute;
     width: 0;
@@ -55,21 +53,21 @@ button {
     top: 50%;
     transform: translate(-50%, -50%);
     transition: all 1s ease;
-   }
-   
-   button:hover:before {
-    width: 100%;
-   }
+}
 
-   .zoom::after {
+  button:hover:before {
+    width: 100%;
+}
+
+  .zoom::after {
     padding: 50px;
     transition: transform .2s; /* Animation */
     filter: blur(8px);
     -webkit-filter: blur(8px);
-  }
+}
 
-   body {
-    background-image: url(https://images8.alphacoders.com/110/1105315.jpg);
+  body {
+    background-color:#434f63;
     background-size: cover;
     background-position: right;
     margin: 0;
