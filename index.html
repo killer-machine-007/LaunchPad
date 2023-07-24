@@ -3,20 +3,30 @@
 
 <head>
     <title>Killer Machine</title>
-    <link rel = "stylesheet" type = "text/css" href = "style.css">
-    <link rel = "icon" href ="/home/moksh/Documents/codex/LaunchPad/batman.png" type = "image/x-icon">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="/home/moksh/Documents/codex/portfolio/batman.jpg" type="image/x-icon">
 </head>
 
-    <body>
-        <script>
-            function play() {
-                var audio = document.getElementById("audio");
-                audio.play();
-            }
-        </script>
-        <button type="button" value="Don't Click" onclick="play()">
-            <span>Don't Click</span>
-            <audio id="audio" src="/home/moksh/Documents/codex/LaunchPad/somehting_in_the_way.mp3"></audio>
-        </button>
-    </body>
+<body>
+    <button id="loadButton" type="button" value="Don't Click">
+        <span>Don't Click</span>
+        <audio id="audio" src="/home/moksh/Documents/codex/portfolio/somehting_in_the_way.mp3"></audio>
+    </button>
+    <div id="loaderContainer" class="honeycomb-container">
+        <div class="honeycomb">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <div id="portfolioContent">
+        <!-- Content to appear after button click -->
+    </div>
+    <script src="script.js"></script>
+</body>
+
 </html>
