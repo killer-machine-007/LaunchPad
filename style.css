@@ -28,8 +28,9 @@ button {
   button span {
     position: absolute;
     width: 100%;
-    font-size: 15px;
-    font-weight: 100;
+    font-family: 'Courier New';
+    font-size: 25px;
+    font-weight: 50;
     left: 50%;
     top: 39%;
     letter-spacing: 3px;
