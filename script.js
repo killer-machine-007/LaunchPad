@@ -5,7 +5,10 @@ document.getElementById('loadButton').addEventListener('click', function() {
   // Show the loader container
   document.getElementById('loaderContainer').style.display = 'block';
 
-  // After 1 second, remove the loader and show the content
+  // Play the audio
+  playAudio();
+
+  // After 1 second, remove the loader and show the content and social icons
   setTimeout(function() {
     // Remove the honeycomb loader
     document.getElementById('loaderContainer').style.display = 'none';
@@ -19,15 +22,16 @@ document.getElementById('loadButton').addEventListener('click', function() {
     // Add your portfolio content here
     portfolioContent.innerHTML = `
       <h2>Welcome to My Portfolio</h2>
-      <p>I'm <b>Vengence</b>, and this is my awesome portfolio website.</p>
+      <p>I'm <b>Vengence</b> and this is my awesome portfolio website.</p>
       <p>Feel free to explore and learn more about my projects and skills!</p>
     `;
 
     // After displaying the content, you can also remove the button if you want
     document.getElementById('loadButton').style.display = 'none';
 
-    // Play the audio
-    playAudio();
+    // Show the social icons with the slide-up animation
+    var socialIcons = document.getElementById('socialIcons');
+    socialIcons.style.display = 'block';
   }, 1000);
 });
 

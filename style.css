@@ -178,7 +178,14 @@ button:hover:before {
   top: 0;
 }
 
-/* Other styles for #portfolioContent */
+#mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
 #portfolioContent {
   display: none;
   font-family: "Consolas", monospace;
@@ -190,6 +197,45 @@ button:hover:before {
   opacity: 0;
 }
 
+/* Add styles for the social icons section */
+#socialIcons {
+  display: none;
+  text-align: center;
+  margin-top: 20px;
+  animation: slideUp 0.5s forwards;
+  opacity: 0;
+}
+
+#socialIcons a {
+  margin: 0 10px;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+#socialIcons img {
+  width: 30px; /* Adjust the size of the icons as needed */
+  height: 30px;
+  vertical-align: middle;
+  border-radius: 50%; /* Apply a border-radius for circular icons if desired */
+}
+
+#socialIcons a:hover {
+  opacity: 0.7; /* Change the opacity on hover for a subtle effect */
+}
+
+/* Add keyframes for the slide-up animation */
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Add keyframes for the slide-in animation */
 @keyframes slideIn {
   from {
     transform: translateY(-100%);
