@@ -78,8 +78,6 @@ button:hover:before {
   -webkit-filter: blur(8px);
 }
 
-
-/* Add the custom honeycomb loader styles */
 @keyframes honeycomb {
   0%, 20%, 80%, 100% {
     opacity: 0;
@@ -94,8 +92,8 @@ button:hover:before {
 }
 
 .honeycomb-container {
-  display: none; /* Initially hide the loader container */
-  position: absolute; /* Position the loader container absolutely */
+  display: none;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -198,7 +196,6 @@ button:hover:before {
   opacity: 0;
 }
 
-/* Add styles for the social icons section */
 #socialIcons {
   display: none;
   text-align: center;
@@ -214,17 +211,16 @@ button:hover:before {
 }
 
 #socialIcons img {
-  width: 40px; /* Adjust the size of the icons as needed */
+  width: 40px;
   height: 40px;
   vertical-align: middle;
-  border-radius: 50%; /* Apply a border-radius for circular icons if desired */
+  border-radius: 50%;
 }
 
 #socialIcons a:hover {
-  opacity: 0.7; /* Change the opacity on hover for a subtle effect */
+  opacity: 0.7;
 }
 
-/* Add keyframes for the slide-up animation */
 @keyframes slideUp {
   from {
     transform: translateY(100%);
@@ -236,7 +232,6 @@ button:hover:before {
   }
 }
 
-/* Add keyframes for the slide-in animation */
 @keyframes slideIn {
   from {
     transform: translateY(-100%);
