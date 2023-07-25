@@ -24,7 +24,6 @@ document.getElementById('loadButton').addEventListener('click', function() {
       <h2>Welcome to My Portfolio</h2>
       <p>I'm <h3>Vengence</h3></p>
       `;
-      // <p>Feel free to explore and learn more about my projects and skills!</p>
 
     // After displaying the content, you can also remove the button if you want
     document.getElementById('loadButton').style.display = 'none';
