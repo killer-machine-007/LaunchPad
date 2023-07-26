@@ -73,7 +73,7 @@ button:hover:before {
 
 .zoom::after {
   padding: 50px;
-  transition: transform .2s; /* Animation */
+  transition: transform .2s;
   filter: blur(8px);
   -webkit-filter: blur(8px);
 }
