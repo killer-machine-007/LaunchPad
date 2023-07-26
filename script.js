@@ -8,7 +8,7 @@ document.getElementById('loadButton').addEventListener('click', function() {
     portfolioContent.style.display = 'block';
     portfolioContent.innerHTML = `
       <h2>Welcome to My Portfolio</h2>
-      <p>I'm <h3>Vengence</h3></p>
+      <p>I'm <h3>Vengeance</h3></p>
       `;
     document.getElementById('loadButton').style.display = 'none';
     var socialIcons = document.getElementById('socialIcons');
